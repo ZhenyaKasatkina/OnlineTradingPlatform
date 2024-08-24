@@ -1,0 +1,22 @@
+SECRET_KEY=django-insecure-)9w7f^c((wbvr_@^0do=)^v=7mldsvkwemk5nj&YH
+DEBUG=True
+
+# данные базы данных
+POSTGRES_DB=onlinetradingplatform
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=secret
+DB_HOST=db
+DB_PORT=5432   # 4-5 знаков
+
+# суперпользователь (email, пароль)
+EMAIL_HOST_USER=knopisha.zh@gmail.com
+SUPERUSER_PASSWORD=123qwe
+
+
+# адрес фронтенд и бэкенд серверов
+CORS_ALLOWED_ORIGINS=http://0.0.0.0:8080
+CSRF_TRUSTED_ORIGINS=http://0.0.0.0:8080
+
+# адрес машины/сервера
+SERVER_HOST=0.0.0.0:8000  # на локальной машине 127.0.0.1:8000
+                       # на сервере публичный адрес, например 37.143.11.179
